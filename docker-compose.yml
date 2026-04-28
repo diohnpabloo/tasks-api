@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  api-tasks:
+    image: bitnami/postgresql:latest
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USERNAME=tasks
+      - POSTGRES_PASSWORD=tasks
+      - POSTGRES_DB=api_tasks
