@@ -1,10 +1,10 @@
 # Tasks API
-API em Node.js/TypeScript para gerenciar tarefas com CRUD, filtros e marcacao de conclusao.
+API em Node.js/TypeScript para gerenciar tarefas com CRUD, filtros e marcação de conclusão.
 
-## Documentacao Swagger
+## Documentação Swagger
 Depois de iniciar o servidor, acesse: http://localhost:3333/docs
 
 ## Principais recursos
 - Criar, listar, atualizar, concluir e remover tarefas
 - Filtros por title e description
-- Importacao de CSV via script
+- Importação de CSV via script
